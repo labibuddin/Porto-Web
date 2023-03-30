@@ -1,0 +1,171 @@
+body {
+  background-color: #eeeeee;
+  font-family: "Noto Sans", sans-serif;
+}
+.secretspc {
+  color: transparent;
+}
+.banner {
+  background: url(/aset/image/berdua2.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: #fff;
+}
+.btn-primary {
+  background-color: #00adb5;
+}
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #00adb5;
+}
+
+.edulink {
+  color: #00adb5;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+.crop-img {
+  object-fit: cover;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+
+.rounded-3 {
+  border-radius: 10% !important;
+}
+
+.klaten {
+  width: 250px;
+  height: 350px;
+}
+
+.sosmedbun {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #eeeeee;
+  background-color: #00adb5;
+}
+a {
+  color: inherit;
+}
+.sosmedbun i {
+  position: relative;
+  top: 30px;
+}
+
+.gradi {
+  font-weight: bold;
+  color: rgb(34, 40, 49);
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+  color: linear-gradient(
+    90deg,
+    rgba(34, 40, 49, 1) 0%,
+    rgba(0, 173, 181, 1) 35%,
+    rgba(238, 238, 238, 1) 100%
+  );
+}
+.gradi2 {
+  font-weight: bold;
+  color: rgb(23, 28, 34);
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+/* timeline} */
+
+.cusustem {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.circle {
+  padding: 16px 20px;
+  border-radius: 30%;
+  background-color: #00adb5;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+.cusustem h4 {
+  color: #88818b;
+}
+.cusustem h2 {
+  color: #00adb5;
+  font-weight: bold;
+}
+.connecting-lines.row .col-2 {
+  align-self: stretch;
+}
+.connecting-lines.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #00adb5;
+  z-index: 1;
+}
+.connecting-lines.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.connecting-lines.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.connecting-lines.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #00adb5;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #00adb5;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
